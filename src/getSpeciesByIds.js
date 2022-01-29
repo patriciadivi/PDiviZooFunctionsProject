@@ -7,7 +7,7 @@ function getSpeciesByIds(...ids) {
   return species.filter(({ id }) => ids.find((elementId) => elementId === id));
 }
 
-// console.log(species.filter(({ id }) => id))
+// console.log(species.filter(({ id }) => id));
 // console.log(species.find((value) => value.id));
 // console.log(species.filter((fnCall) => fnCall.id).map((mapCall) => mapCall.id));
 

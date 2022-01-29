@@ -21,7 +21,7 @@ function countAnimals(animal) {
 }
 
 // Usar como estudo
-console.log(Object.assign(...species.map((elent) => ({ [elent.name]: elent.residents.length }))));
-console.log(Object.assign(...species.map((elent) => ({ [elent.name]: elent.residents.length }))));
+// console.log(Object.assign(...species.map((elent) => ({ [elent.name]: elent.residents.length }))));
+// console.log(Object.assign(...species.map((elent) => ({ [elent.name]: elent.residents.length }))));
 
 module.exports = countAnimals;
