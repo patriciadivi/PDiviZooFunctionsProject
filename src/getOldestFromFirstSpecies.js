@@ -23,8 +23,4 @@ function getOldestFromFirstSpecies(idParment) {
   return [exitResponsibleFor[0].name, exitResponsibleFor[0].sex, exitResponsibleFor[0].age];
 }
 
-// console.log(species.find((elementFind) => Object.values(elementFind.id[0])));
-// console.log(species.find((elementFind) => Object.values(elementFind.id)));
-
-// console.log(getOldestFromFirstSpecies('c1f50212-35a6-4ecd-8223-f835538526c2'));
 module.exports = getOldestFromFirstSpecies;
